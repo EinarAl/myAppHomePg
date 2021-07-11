@@ -1,0 +1,75 @@
+.header {
+    color: #000000;
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-top: 50px;
+  }
+  
+  .name {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 6%;
+    margin-top: 3px;
+  }
+
+  .questions {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-top: 30px;
+  }
+
+  .answers {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 5px;
+  }
+
+  .multipleCDot {
+    margin-left: 6%;
+  }
+
+  .submitButton {
+    background-color: #A2C5E2;
+    margin-left: 8%;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    height: 40px;
+    width: 25%;
+    border: none;
+  }
+
+  .showExButton {
+    margin-left: 8%;
+    margin-top: 5px;
+    background-color: #4489C5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    height: 40px;
+    width: 25%;
+    border-radius: 6px;
+  }
+
+  .backButton {
+      display: block;
+    margin-left: 8%;
+    margin-top: 250px;
+    background-color: #4489C5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    height: 40px;
+    width: 25%;
+    border-radius: 6px;
+  }

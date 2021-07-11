@@ -1,0 +1,93 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.card {
+  margin: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 160px;
+  display: inline-block;
+  width: 40%;
+  background-color: #3B81BA;
+}
+.space{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.topicHeader {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.header {
+  color: #000000;
+  opacity: 0.7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 6%;
+  margin-top: 50px;
+}
+
+.name {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 6%;
+  margin-top: 3px;
+}
+
+.searchBar {
+  --background: #ffffff;
+  color: #737373;
+}
+
+.box {
+  --background: transparent;
+  margin-top: 20px;
+}
+
+.continueToPage {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 6%;
+  margin-top: 15px;
+}
+
+// .passwordsTopic {
+//   font-size: 21px;
+//   margin-top: 50px;
+// }

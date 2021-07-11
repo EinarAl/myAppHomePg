@@ -1,0 +1,47 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content fullscreen>
+  <div class="header">Welcome Back</div>
+  <div class="name">Einar</div>
+
+  <ion-toolbar class="box">
+    <ion-searchbar class="searchBar"></ion-searchbar>
+  </ion-toolbar>
+
+  <div class="space">
+  <ion-card [routerLink]="['/quiz']" class="card">
+    <ion-card-header>
+      <ion-card-title class="topicHeader">Passwords</ion-card-title>
+      <!-- <ion-router-link href="../quiz/quiz.page.html" class="topicHeader">Viruses</ion-router-link> -->
+    </ion-card-header>
+  </ion-card>
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-card-title class="topicHeader passwordsTopic">Viruses</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</div>
+
+<div class="space">
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-card-title class="topicHeader">Vpn</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-card-title class="topicHeader">Phishing sites</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</div>
+
+<div class="continueToPage">
+  Continue lesson on <b>Passwords</b>
+</div>
+</ion-content>

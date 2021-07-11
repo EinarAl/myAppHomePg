@@ -1,0 +1,27 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>quiz</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content fullscreen>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <div class="header">Quiz: Passwords</div>
+  <div class="name">Einar</div>
+
+  <!-- <div class="questions">1. is this a good password? : 1234Einar</div> -->
+  
+  <form action="/action_page.php">
+    <p class="questions">is this a good password? : 1234Einar</p>
+    <input class="multipleCDot" type="radio" id="yesAnswer">
+    <label class="answers" for="yesAnswer">yes</label><br>
+    <input class="multipleCDot" type="radio" id="noAnswer">
+    <label class="answers" for="noAnswer">no</label><br>
+    <input class="submitButton" type="submit" value="Submit">
+  </form>  
+  <button [routerLink]="['/explanation']" class="showExButton">Show Explanation</button>
+</ion-content>
